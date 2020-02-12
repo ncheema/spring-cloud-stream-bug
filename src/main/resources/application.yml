@@ -4,10 +4,10 @@ spring.cloud.stream:
   bindings:
     supplier-out-0:
       destination: topic-out
-      binder: "kafka1"
+      binder: kafka1
     consumer-in-0:
       destination: topic-in
-      binder: "kafka2"
+      binder: kafka2
   binders:
     kafka1:
       type: kafka
